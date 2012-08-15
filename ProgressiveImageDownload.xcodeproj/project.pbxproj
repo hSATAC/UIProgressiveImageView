@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E249C5B1382E04F00FBAE95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E249C5A1382E04F00FBAE95 /* UIKit.framework */; };
+		1E249C5D1382E04F00FBAE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E249C5C1382E04F00FBAE95 /* Foundation.framework */; };
+		1E249C5F1382E04F00FBAE95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E249C5E1382E04F00FBAE95 /* CoreGraphics.framework */; };
+		1E249C651382E04F00FBAE95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E249C631382E04F00FBAE95 /* InfoPlist.strings */; };
+		1E249C681382E04F00FBAE95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E249C671382E04F00FBAE95 /* main.m */; };
+		1E249C6B1382E04F00FBAE95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E249C6A1382E04F00FBAE95 /* AppDelegate.m */; };
+		1E249C6E1382E04F00FBAE95 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E249C6C1382E04F00FBAE95 /* MainWindow.xib */; };
+		1E249C711382E04F00FBAE95 /* ProgressiveImageDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E249C701382E04F00FBAE95 /* ProgressiveImageDownloadViewController.m */; };
+		1E249C741382E04F00FBAE95 /* ProgressiveImageDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E249C721382E04F00FBAE95 /* ProgressiveImageDownloadViewController.xib */; };
+		1E249C7F1382E42100FBAE95 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E249C7D1382E42100FBAE95 /* ImageIO.framework */; };
+		1E249C801382E42100FBAE95 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E249C7E1382E42100FBAE95 /* QuartzCore.framework */; };
+		4E17A70B15DC04D900AFE2EB /* DownloadPictureOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A70815DC04D900AFE2EB /* DownloadPictureOperation.m */; };
+		4E17A70C15DC04D900AFE2EB /* UIProgressiveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E17A70A15DC04D900AFE2EB /* UIProgressiveImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E249C561382E04E00FBAE95 /* ProgressiveImageDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressiveImageDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E249C5A1382E04F00FBAE95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E249C5C1382E04F00FBAE95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E249C5E1382E04F00FBAE95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E249C621382E04F00FBAE95 /* ProgressiveImageDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgressiveImageDownload-Info.plist"; sourceTree = "<group>"; };
+		1E249C641382E04F00FBAE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E249C661382E04F00FBAE95 /* ProgressiveImageDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgressiveImageDownload-Prefix.pch"; sourceTree = "<group>"; };
+		1E249C671382E04F00FBAE95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E249C691382E04F00FBAE95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E249C6A1382E04F00FBAE95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E249C6D1382E04F00FBAE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1E249C6F1382E04F00FBAE95 /* ProgressiveImageDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressiveImageDownloadViewController.h; sourceTree = "<group>"; };
+		1E249C701382E04F00FBAE95 /* ProgressiveImageDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressiveImageDownloadViewController.m; sourceTree = "<group>"; };
+		1E249C731382E04F00FBAE95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ProgressiveImageDownloadViewController.xib; sourceTree = "<group>"; };
+		1E249C7D1382E42100FBAE95 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1E249C7E1382E42100FBAE95 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4E17A70715DC04D900AFE2EB /* DownloadPictureOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadPictureOperation.h; sourceTree = "<group>"; };
+		4E17A70815DC04D900AFE2EB /* DownloadPictureOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadPictureOperation.m; sourceTree = "<group>"; };
+		4E17A70915DC04D900AFE2EB /* UIProgressiveImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIProgressiveImageView.h; sourceTree = "<group>"; };
+		4E17A70A15DC04D900AFE2EB /* UIProgressiveImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIProgressiveImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E249C531382E04E00FBAE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E249C7F1382E42100FBAE95 /* ImageIO.framework in Frameworks */,
+				1E249C801382E42100FBAE95 /* QuartzCore.framework in Frameworks */,
+				1E249C5B1382E04F00FBAE95 /* UIKit.framework in Frameworks */,
+				1E249C5D1382E04F00FBAE95 /* Foundation.framework in Frameworks */,
+				1E249C5F1382E04F00FBAE95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E249C4B1382E04E00FBAE95 = {
+			isa = PBXGroup;
+			children = (
+				4E17A70615DC04D900AFE2EB /* UIProgessiveImageView */,
+				1E249C601382E04F00FBAE95 /* ProgressiveImageDownload */,
+				1E249C591382E04E00FBAE95 /* Frameworks */,
+				1E249C571382E04E00FBAE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E249C571382E04E00FBAE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E249C561382E04E00FBAE95 /* ProgressiveImageDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E249C591382E04E00FBAE95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E249C7D1382E42100FBAE95 /* ImageIO.framework */,
+				1E249C7E1382E42100FBAE95 /* QuartzCore.framework */,
+				1E249C5A1382E04F00FBAE95 /* UIKit.framework */,
+				1E249C5C1382E04F00FBAE95 /* Foundation.framework */,
+				1E249C5E1382E04F00FBAE95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E249C601382E04F00FBAE95 /* ProgressiveImageDownload */ = {
+			isa = PBXGroup;
+			children = (
+				1E249C691382E04F00FBAE95 /* AppDelegate.h */,
+				1E249C6A1382E04F00FBAE95 /* AppDelegate.m */,
+				1E249C6C1382E04F00FBAE95 /* MainWindow.xib */,
+				1E249C6F1382E04F00FBAE95 /* ProgressiveImageDownloadViewController.h */,
+				1E249C701382E04F00FBAE95 /* ProgressiveImageDownloadViewController.m */,
+				1E249C721382E04F00FBAE95 /* ProgressiveImageDownloadViewController.xib */,
+				1E249C611382E04F00FBAE95 /* Supporting Files */,
+			);
+			path = ProgressiveImageDownload;
+			sourceTree = "<group>";
+		};
+		1E249C611382E04F00FBAE95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E249C621382E04F00FBAE95 /* ProgressiveImageDownload-Info.plist */,
+				1E249C631382E04F00FBAE95 /* InfoPlist.strings */,
+				1E249C661382E04F00FBAE95 /* ProgressiveImageDownload-Prefix.pch */,
+				1E249C671382E04F00FBAE95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E17A70615DC04D900AFE2EB /* UIProgessiveImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4E17A70715DC04D900AFE2EB /* DownloadPictureOperation.h */,
+				4E17A70815DC04D900AFE2EB /* DownloadPictureOperation.m */,
+				4E17A70915DC04D900AFE2EB /* UIProgressiveImageView.h */,
+				4E17A70A15DC04D900AFE2EB /* UIProgressiveImageView.m */,
+			);
+			path = UIProgessiveImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E249C551382E04E00FBAE95 /* ProgressiveImageDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E249C771382E04F00FBAE95 /* Build configuration list for PBXNativeTarget "ProgressiveImageDownload" */;
+			buildPhases = (
+				1E249C521382E04E00FBAE95 /* Sources */,
+				1E249C531382E04E00FBAE95 /* Frameworks */,
+				1E249C541382E04E00FBAE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressiveImageDownload;
+			productName = ProgressiveImageDownload;
+			productReference = 1E249C561382E04E00FBAE95 /* ProgressiveImageDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E249C4D1382E04E00FBAE95 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1E249C501382E04E00FBAE95 /* Build configuration list for PBXProject "ProgressiveImageDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E249C4B1382E04E00FBAE95;
+			productRefGroup = 1E249C571382E04E00FBAE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E249C551382E04E00FBAE95 /* ProgressiveImageDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E249C541382E04E00FBAE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E249C651382E04F00FBAE95 /* InfoPlist.strings in Resources */,
+				1E249C6E1382E04F00FBAE95 /* MainWindow.xib in Resources */,
+				1E249C741382E04F00FBAE95 /* ProgressiveImageDownloadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E249C521382E04E00FBAE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E249C681382E04F00FBAE95 /* main.m in Sources */,
+				1E249C6B1382E04F00FBAE95 /* AppDelegate.m in Sources */,
+				1E249C711382E04F00FBAE95 /* ProgressiveImageDownloadViewController.m in Sources */,
+				4E17A70B15DC04D900AFE2EB /* DownloadPictureOperation.m in Sources */,
+				4E17A70C15DC04D900AFE2EB /* UIProgressiveImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E249C631382E04F00FBAE95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E249C641382E04F00FBAE95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E249C6C1382E04F00FBAE95 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E249C6D1382E04F00FBAE95 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1E249C721382E04F00FBAE95 /* ProgressiveImageDownloadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E249C731382E04F00FBAE95 /* en */,
+			);
+			name = ProgressiveImageDownloadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E249C751382E04F00FBAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E249C761382E04F00FBAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1E249C781382E04F00FBAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgressiveImageDownload/ProgressiveImageDownload-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				INFOPLIST_FILE = "ProgressiveImageDownload/ProgressiveImageDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E249C791382E04F00FBAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgressiveImageDownload/ProgressiveImageDownload-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				INFOPLIST_FILE = "ProgressiveImageDownload/ProgressiveImageDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E249C501382E04E00FBAE95 /* Build configuration list for PBXProject "ProgressiveImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E249C751382E04F00FBAE95 /* Debug */,
+				1E249C761382E04F00FBAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E249C771382E04F00FBAE95 /* Build configuration list for PBXNativeTarget "ProgressiveImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E249C781382E04F00FBAE95 /* Debug */,
+				1E249C791382E04F00FBAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E249C4D1382E04E00FBAE95 /* Project object */;
+}
