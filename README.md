@@ -8,3 +8,5 @@ Display the image progressively whlie downloading,  just like web browser does. 
 
 
 The origin code and idea were coming from [Nyx0uf's post](http://www.cocoaintheshell.com/2011/05/progressive-images-download-imageio/)
+
+Need more powerful features? see https://github.com/Nyx0uf/NYXImagesKit
